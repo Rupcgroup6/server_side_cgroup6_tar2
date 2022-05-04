@@ -20,7 +20,7 @@ namespace MovieDB.Models.DAL
             return 1;
         }
 
-        public List<Company> get()
+        public List<Company> Get()
         {
             return companyList;
         }

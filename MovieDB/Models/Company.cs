@@ -51,10 +51,11 @@ namespace MovieDB.Models
             return 1;
         }
 
-        public List<Company>get()
+        public List<Company>Get()
         {
-            CompanyDataServices ds2=new CompanyDataServices();
-            return ds2.get();
+            CompanyDataServices ds2 = new CompanyDataServices();
+            List<Company> cList = ds2.Get();
+            return cList;
 
         }
 

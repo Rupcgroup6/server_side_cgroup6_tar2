@@ -11,9 +11,10 @@ namespace MovieDB.Controllers
     public class CompanysController : ApiController
     {
         public IEnumerable<Company> Get()
-        {
-            Company company = new Company();
-            return company.get();
+        {           
+            Company c = new Company();
+            List<Company> cList = c.Get();
+            return cList ;
         }
 
 
